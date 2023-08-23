@@ -1,2 +1,18 @@
-# just a test 
-print('hello world')
+import matplotlib.pyplot as plt 
+
+plt.close()
+
+
+fig, ax = plt.subplots()
+
+for i, dum in enumerate(x):
+    ax.plot(x[i], y(x[i]))
+    time.sleep(0.001)
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+
+plt.show()
+
+# plt.figure()
+# plt.plot(x, y(x))
+# plt.show()
